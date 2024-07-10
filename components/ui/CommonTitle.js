@@ -3,7 +3,7 @@ import Colors from "../../constants/colors";
 
 
 function Title({children, otherStyles}) {
-      return <Text style={[styles.title,otherStyles]}> {children} </Text>;
+  return <Text style={[styles.title,otherStyles]}> {children} </Text>;
 }
 
 export default Title;
